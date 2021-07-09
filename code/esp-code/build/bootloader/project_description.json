@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/hazimhalim/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/hazimhalim/Desktop/ec444/quest/TeamLight-Almousa-Patel-Halim/quest-3/code/esp-code/build/bootloader",
+    "config_file":        "/Users/hazimhalim/Desktop/ec444/quest/TeamLight-Almousa-Patel-Halim/quest-3/code/esp-code/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/hazimhalim/esp/esp-idf/components/efuse/Kconfig;/Users/hazimhalim/esp/esp-idf/components/esp32/Kconfig;/Users/hazimhalim/esp/esp-idf/components/esp_common/Kconfig;/Users/hazimhalim/esp/esp-idf/components/log/Kconfig;/Users/hazimhalim/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/hazimhalim/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/hazimhalim/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/hazimhalim/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/hazimhalim/esp/esp-idf/components/bootloader", "/Users/hazimhalim/esp/esp-idf/components/bootloader_support", "/Users/hazimhalim/esp/esp-idf/components/efuse", "/Users/hazimhalim/esp/esp-idf/components/esp32", "/Users/hazimhalim/esp/esp-idf/components/esp_common", "/Users/hazimhalim/esp/esp-idf/components/esp_rom", "/Users/hazimhalim/esp/esp-idf/components/esptool_py", "/Users/hazimhalim/esp/esp-idf/components/log", "/Users/hazimhalim/esp/esp-idf/components/bootloader/subproject/main", "/Users/hazimhalim/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/hazimhalim/esp/esp-idf/components/partition_table", "/Users/hazimhalim/esp/esp-idf/components/soc", "/Users/hazimhalim/esp/esp-idf/components/spi_flash", "/Users/hazimhalim/esp/esp-idf/components/xtensa", "" ]
+}

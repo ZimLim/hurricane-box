@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dgram": "^1.0.1",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  }
+}
